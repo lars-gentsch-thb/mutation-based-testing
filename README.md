@@ -1,3 +1,5 @@
+# Mutation Testing am Beispiel von PITest und einem Palindrom
+
 ## Definition
 
 Für diese Aufgabe ist ein Palindrom definiert
@@ -18,4 +20,7 @@ und das selbe Wort ergibt.
 
 * "!!>"
 * " anna"
-* 
+
+### Ausführung von PITest
+
+$ mvn test-compile org.pitest:pitest-maven:mutationCoverage
