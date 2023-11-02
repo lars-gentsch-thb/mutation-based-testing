@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>example</groupId>
-  <artifactId>TDD_Palindrom</artifactId>
+  <artifactId>Mutation_Based_Testing_Palindrom</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 

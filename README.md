@@ -1,5 +1,15 @@
 # Mutation Testing am Beispiel von PITest und einem Palindrom
 
+### Ausführung von PITest
+
+Das PITest-Maven-Plugin in kann mit folgendem Befehl ausgeführt werden:
+
+```
+$ mvn test-compile org.pitest:pitest-maven:mutationCoverage
+```
+
+Die erzeugten Reports befinden sich im Verzeichnis `target/pit-reports`.
+
 ## Definition
 
 Für diese Aufgabe ist ein Palindrom definiert
@@ -20,7 +30,3 @@ und das selbe Wort ergibt.
 
 * "!!>"
 * " anna"
-
-### Ausführung von PITest
-
-$ mvn test-compile org.pitest:pitest-maven:mutationCoverage

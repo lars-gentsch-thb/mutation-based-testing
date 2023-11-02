@@ -4,7 +4,10 @@ package tdd;
 public class PalindromChecker {
 
     public static boolean isPalindrome(String text) {
-        if (text.length() == 0) {
+        if (text == null) {
+            return false;
+        }
+        if (text.isEmpty()) {
             return true;
         } else {
             char firstChar = text.charAt(0);
